@@ -28,15 +28,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public List<Hj> getlist()
-    {
-        List<Hj> mylist = new ArrayList<>();
-        mylist.add(new Hj("aa","aa"));
-        mylist.add(new Hj("bb","bb"));
-        mylist.add(new Hj("cc","cc"));
-        mylist.add(new Hj("dd","dd"));
-        mylist.add(new Hj("ee","aee"));
-        mylist.add(new Hj("ff","ff"));
-        return  mylist;
-    }
 }
